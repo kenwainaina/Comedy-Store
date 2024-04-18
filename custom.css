@@ -1,0 +1,94 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+.carousel {
+    position: relative;
+    z-index: 1; /* Ensure carousel is below navbar */
+  }
+  .carousel-item {
+    min-height: 700px;
+  }
+
+.carousel-item img {
+     position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 700px;
+}
+
+header, .container-fluid {
+    padding: 0 !important; /* Overrides other padding settings */
+    margin: 0 !important; /* Removes margin if any */
+}
+
+
+.bg-dark {
+    background-color: rgba(0, 0, 0, 0.2); /* Black with 50% transparency */
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card-date {
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* This will push the button to the bottom */
+  }
+  
+
+.card .btn-primary {
+   
+    width: 100%; /* Makes the button stretch to the full width of its parent */
+    box-sizing: border-box; /* Ensures padding and border are included in the width calculation */
+    bottom: 10px; /* Adjust this value as needed */
+}
+
+
+.equal-height {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.equal-height .col-md-3 {
+    display: flex;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+/* Targeting all button elements */
+button {
+    background-color: black;
+    color: white;
+}
+
+/* If you're using Bootstrap or similar frameworks, you might want to target .btn classes instead */
+.btn {
+    background-color: black;
+    color: white;
+}
